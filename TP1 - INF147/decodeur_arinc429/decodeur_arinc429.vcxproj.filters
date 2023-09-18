@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="client_udp">
+      <UniqueIdentifier>{d5740b3c-eb29-4271-afcf-107d7fce151d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="decodeur">
+      <UniqueIdentifier>{2bcab2bd-9d24-46b8-ac8e-4aaeb64205f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="configuration">
+      <UniqueIdentifier>{371157e9-8805-4cef-8a60-856529feed9e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\client_udp\port_udp.c">
+      <Filter>client_udp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\decodeur_a429\main.c" />
+    <ClCompile Include="..\source\decodeur_a429\decodeur\decodeur_a429.c">
+      <Filter>decodeur</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\decodeur_a429\decodeur\utilitaire.c">
+      <Filter>decodeur</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\decodeur_a429\test\test.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\client_udp\port_udp.h">
+      <Filter>client_udp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\configuration_a429\configuration.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\configuration_a429\icd.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\decodeur_a429\decodeur\decodeur_a429.h">
+      <Filter>decodeur</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\decodeur_a429\decodeur\utilitaire.h">
+      <Filter>decodeur</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

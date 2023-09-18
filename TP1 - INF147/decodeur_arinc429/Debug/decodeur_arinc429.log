@@ -1,0 +1,12 @@
+﻿  port_udp.c
+  decodeur_a429.c
+C:\Users\Cristian\Desktop\Learning\ETS\2_INF147\TP1 - INF147\source\decodeur_a429\decodeur\decodeur_a429.c(106,18): warning C4244: 'function': conversion from 'double' to 'unsigned int', possible loss of data
+  utilitaire.c
+C:\Users\Cristian\Desktop\Learning\ETS\2_INF147\TP1 - INF147\source\decodeur_a429\decodeur\utilitaire.c(77,39): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  main.c
+C:\Users\Cristian\Desktop\Learning\ETS\2_INF147\TP1 - INF147\source\decodeur_a429\main.c(24,2): warning C4013: 'afficher_entete_decodeur' undefined; assuming extern returning int
+C:\Users\Cristian\Desktop\Learning\ETS\2_INF147\TP1 - INF147\source\decodeur_a429\main.c(39,4): warning C4013: 'afficher_mot_a429' undefined; assuming extern returning int
+C:\Users\Cristian\Desktop\Learning\ETS\2_INF147\TP1 - INF147\source\decodeur_a429\main.c(28,15): warning C4047: 'initializing': 'unsigned int' differs in levels of indirection from 'void *'
+  test.c
+  Generating Code...
+  decodeur_arinc429.vcxproj -> C:\Users\Cristian\Desktop\Learning\ETS\2_INF147\TP1 - INF147\decodeur_arinc429\Debug\decodeur_arinc429.exe
